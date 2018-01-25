@@ -81,4 +81,5 @@ try:
     print("Chance agreement (Pe): {}".format(Pe))
     print("Agreement measure (Am): {}".format(Am))
 except IndexError:
-    print("Message d'aide")
+    print("How to use this program:")
+    print("python2 compute_bhownick_agreement.py categories.csv annotations.csv")
